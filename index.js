@@ -34,7 +34,7 @@ const handleCard = async (categoryId) => {
         <figure><img class ="w-72 h-44" src=${cards.thumbnail}  /></figure>
         <div class="card-body">
           <div class="flex gap-5 items-center">
-          <img class="rounded-full w-12 h-12"  src="${cards.authors[0].profile_picture}" alt="">
+          <img class="rounded-full w-12 h-12 "  src="${cards.authors[0].profile_picture}" alt="">
             <h2 class="card-title">${cards.title.slice(0,15)}</h2>
             
           </div>
